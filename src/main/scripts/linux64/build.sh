@@ -1,4 +1,9 @@
-cmake ../../c++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="../../../../target/classes/linux64" -DZLIB_INCLUDE_DIR="${PWD}/zlib/linux64/include" -DZLIB_LIBRARY="${PWD}/zlib/linux64/lib/libz.a" -G "Unix Makefiles"
+cmake ../../c++ \
+-DCMAKE_BUILD_TYPE=Release \
+-DCMAKE_INSTALL_PREFIX="../../../../target/classes/linux64" \
+-DZLIB_INCLUDE_DIR="${PWD}/zlib/linux64/include" \
+-DZLIB_LIBRARY="${PWD}/zlib/linux64/lib/libz.a" \
+-G "Unix Makefiles"
 
 make install
 r1=$?
