@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cmake ../../c++ \
 -DCMAKE_BUILD_TYPE=Release \
 -DCMAKE_INSTALL_PREFIX="../../../../target/classes/win64" \
@@ -26,4 +28,4 @@ rm libpng16.pc
 rm libpng16-config
 rm libpng-config
 
-return $r1
+exit $r1
