@@ -12,12 +12,12 @@ http://www.libpng.org/pub/png/libpng.html
 
 ## Requirements
 
-To build this module, you will need a java 8 JDK, Maven 3, cmake and a c++ compiler.
+To build this module, you will need the latest Java JDK, Maven 3, cmake and a c++ compiler.
 
 ## Coding Style and other information
 
 Project website:
-http://www.yildiz-games.be
+https://engine.yildiz-games.be
 
 Issue tracker:
 https://yildiz.atlassian.net
