@@ -30,7 +30,7 @@
   <url>https://bitbucket.org/yildiz-engine-team/component-native-png</url>
 
   <artifactId>component-native-png</artifactId>
-  <version>1.6.36.1-SNAPSHOT</version>
+  <version>1.6.37.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
   <inceptionYear>2017</inceptionYear>
